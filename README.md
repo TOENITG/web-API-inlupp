@@ -1,18 +1,21 @@
 Du ska i denna inlämningsuppgift bygga ett enkelt ärendehanteringssystem. Om du är osäker på vad ett ärendehanteringssystem är ber vi dig kolla in https://www.youtube.com/results?search_query=%C3%A4rendehanteringssystem för där visas en rad olika exempel på ärendehanteringssystem.
 
- 
+### För godkänt krävs det att du gör följande:
 
-För godkänt krävs det att du gör följande:
-Du ska bygga ett grafiskt gränssnitt med Blazor/MVC där du kan skapa ett ärende som tar emot följande information: Kundens namn, Tidpunkt för ärendet, Titel på ärendet, En beskrivning av ärendet, En status (Ej påbörjad, Påbörjad, Avslutad).
-Du ska skapa ett grafiskt gränssnitt med Blazor/MVC där du kan lista upp alla ärenden och se all information om ett ärende.
-Du ska bygga ett grafiskt gränssnitt med Blazor/MVC där du kan skapa en kund och lista upp alla kunder i en lista.
-Du måste minst ha 2 controllers i ditt WebAPI en för kunder och en för ärenden (CustomerController, CaseController)
-Du måste ha CRUD för minst 2 controllers (dvs. CustomerController och CaseController)
-Du måste kunna spara informationen i en databas med hjälp av Entity Framework
-För väl godkänt krävs det att du även har följande:
-Inloggning mot WebApi med JWT-tokens för handläggaren
-Ett grafiskt gränssnitt i Blazor/MVC för registring och inloggning av en handläggare kopplat på WebApiet en kund ska alltså inte logga in utan det är bara en handläggare som ska logga in. (använd gärna LocalStorage för Blazor).
+* Du ska bygga ett grafiskt gränssnitt med Blazor/MVC där du kan skapa ett ärende som tar emot följande information: Kundens namn, Tidpunkt för ärendet, Titel på ärendet, En beskrivning av ärendet, En status (Ej påbörjad, Påbörjad, Avslutad).
+* Du ska skapa ett grafiskt gränssnitt med Blazor/MVC där du kan lista upp alla ärenden och se all information om ett ärende.
+* Du ska bygga ett grafiskt gränssnitt med Blazor/MVC där du kan skapa en kund och lista upp alla kunder i en lista.
+* Du måste minst ha 2 controllers i ditt WebAPI en för kunder och en för ärenden (CustomerController, CaseController)
+* Du måste ha CRUD för minst 2 controllers (dvs. CustomerController och CaseController)
+* Du måste kunna spara informationen i en databas med hjälp av Entity Framework
+
+### För väl godkänt krävs det att du även har följande:
+
+* Inloggning mot WebApi med JWT-tokens för handläggaren
+* Ett grafiskt gränssnitt i Blazor/MVC för registring och inloggning av en handläggare kopplat på WebApiet en kund ska alltså inte logga in utan det är bara en handläggare som ska logga in. (använd gärna LocalStorage för Blazor).
+
 VG delen ska göras självständigt, vilket innebär att du själv ska klara av att göra detta med minimal handledning av utbildaren. 
+
 Denna inlämningsuppgift ska senast vara inlämnad den 29:e mars. Du ska skicka in din uppgift här på pingpong i zippat format. Om det är så att du inte kan skicka in din uppgift då filstorleken är för stor. Ska du  lägga upp ditt arbete på GitHub och sedan skicka din länk till din github repository som kommentar vid inlämningen.
 
  
